@@ -1,5 +1,4 @@
 # water-agent
-
 Hourly drink-water reminder posted to a Google Chat space via incoming webhook.
 Runs on GitHub Actions, **Mon–Fri, every hour from 08:00 to 17:00 ICT** (UTC+7).
 
