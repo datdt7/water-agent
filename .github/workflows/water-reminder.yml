@@ -2,9 +2,7 @@ name: Water reminder
 
 on:
   schedule:
-    # Hourly, Mon-Fri, 08:00-17:00 ICT (UTC+7) -> 01:00-10:00 UTC
-    # - cron: "0 1-10 * * 1-5"
-    cron: "0 * * * *"
+    - cron: "0 * * * *"
   push:
     branches: [main]
   workflow_dispatch:
