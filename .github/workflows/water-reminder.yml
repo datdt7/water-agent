@@ -4,6 +4,8 @@ on:
   schedule:
     # Hourly, Mon-Fri, 09:00-17:00 ICT (UTC+7) -> 02:00-10:00 UTC
     - cron: "0 2-10 * * 1-5"
+  push:
+    branches: [main]
   workflow_dispatch:
 
 concurrency:
