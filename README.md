@@ -1,7 +1,7 @@
 # water-agent
 
 Hourly drink-water reminder posted to a Google Chat space via incoming webhook.
-Runs on GitHub Actions, **Mon–Fri, every hour from 09:00 to 17:00 ICT** (UTC+7).
+Runs on GitHub Actions, **Mon–Fri, every hour from 08:00 to 17:00 ICT** (UTC+7).
 
 ## Setup
 
@@ -13,8 +13,8 @@ Runs on GitHub Actions, **Mon–Fri, every hour from 09:00 to 17:00 ICT** (UTC+7
 
 ## Schedule
 
-`cron: "0 2-10 * * 1-5"` — top of every hour, 02:00–10:00 UTC, Mon–Fri.
-That maps to 09:00–17:00 ICT, i.e. 9 reminders per workday.
+`cron: "0 1-10 * * 1-5"` — top of every hour, 01:00–10:00 UTC, Mon–Fri.
+That maps to 08:00–17:00 ICT, i.e. 10 reminders per workday.
 
 GitHub Actions cron is best-effort and can be delayed by a few minutes under load.
 
